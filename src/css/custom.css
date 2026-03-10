@@ -1,0 +1,27 @@
+/**
+ * Kuromaku Fit-Trak — Docusaurus theme overrides
+ * Brand colors: Maroon (#7A2D2D), Gold (#C8A84E)
+ */
+
+:root {
+  --ifm-color-primary: #7A2D2D;
+  --ifm-color-primary-dark: #6e2828;
+  --ifm-color-primary-darker: #682626;
+  --ifm-color-primary-darkest: #561f1f;
+  --ifm-color-primary-light: #863232;
+  --ifm-color-primary-lighter: #8c3434;
+  --ifm-color-primary-lightest: #9e3a3a;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #C8A84E;
+  --ifm-color-primary-dark: #c19e3b;
+  --ifm-color-primary-darker: #b89536;
+  --ifm-color-primary-darkest: #977b2c;
+  --ifm-color-primary-light: #cfb261;
+  --ifm-color-primary-lighter: #d2b66a;
+  --ifm-color-primary-lightest: #dcc486;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
